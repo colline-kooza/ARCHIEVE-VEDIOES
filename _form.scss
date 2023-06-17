@@ -1,0 +1,87 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 100px;
+    .form-container{
+        width: 100vw;
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+        text-transform: lowercase;
+
+        .inputElemnt{
+            width: 23%;
+            display: flex;
+            align-items: start;
+            gap: 7px;
+            justify-content: start;
+            flex-direction: column;
+        }
+
+        input{
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+        .add-vedio-btn{
+            margin-top: 20px;
+          button{
+            background-color: black;
+            color: beige;
+            border: none;
+            outline: none;
+            font-size: 10px;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+        }
+    }
+}
+@media(max-width:500px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 1px;
+        padding: 3rem 3rem;
+        .form-container{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-transform: lowercase;
+            padding: 2rem;
+            .inputElemnt{
+                width: 23%;
+                display: flex;
+                align-items: start;
+                gap: 7px;
+                justify-content: start;
+                flex-direction: column;
+            }
+    
+            input{
+                padding: 10px 20px;
+                font-size: 12px;
+            }
+            .add-vedio-btn{
+                margin-top: 20px;
+              button{
+                background-color: black;
+                color: beige;
+                border: none;
+                outline: none;
+                font-size: 10px;
+                padding: 15px 30px;
+                border-radius: 10px;
+                cursor: pointer;
+              }
+            }
+        }
+    }
+}
